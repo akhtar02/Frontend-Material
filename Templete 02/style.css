@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container{
+    margin-left: 100px;
+    margin-right:100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+
+.header-text{
+    width: 350px;
+    margin-top: 140px;
+}
+
+h1{
+    font-size: 34px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #f67c92;
+    margin: 15px 0;
+}
+
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #f67c92;
+}
+
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.inline{
+    line-height: 8px;
+}
+
+.line-1{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-color: #f67c92;
+}
+
+.line-2{
+    height: 2px;
+    width: 80px;
+    display: inline-block;
+    background-color: #f67c92;
+}
+
+.line-3{
+    height: 2px;
+    width: 60px;
+    display: inline-block;
+    background-color: #f67c92;
+}
+
+
+/* ==================== Navigation     ============= */
+
+
+#sideNav{
+width: 250px;
+height: 100vh;
+position: fixed;
+right: -250px;
+top: 0;
+background-color: #f67c92;
+z-index: 2;
+transition: 0.5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
