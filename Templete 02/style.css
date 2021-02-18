@@ -285,7 +285,162 @@ hr{
 
 .footer-left-col{
     flex-basis: 50%;
+    margin-top: 60px;
 }
 .footer-right-col{
     flex-basis: 50%
+}
+.footer-links{
+    display: flex;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+
+.link-title small{
+    font-size: 13px;
+    color: #7777;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 100px;
+
+}
+.footer-logo button{
+    padding: 12px 38px;
+    margin: 20px;
+    font-size: 16px;
+}
+.copyright-text, .footer-logo{
+    flex-basis: 40%;
+}
+
+
+/* =========== social icon =========== */
+
+.social-icon{
+    width: 50px;
+    position: fixed;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index:1;
+}
+
+.social-icon img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 770px){
+    .header{
+        background-image: none;
+    }
+    .container{
+        margin-left: 50px;
+        margin-right:50px;
+    }
+    .logo{
+        margin-top: 25px;
+        width: 70px;
+    }
+    
+    .header-text{
+        
+        margin-top: 100px;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+    #menuBtn{
+        width: 40px;
+        /* position: fixed; */
+        right: 50px;
+        /* top: 35px;
+        z-index: 2; */
+        cursor: pointer;
+    }
+
+    .common-btn{
+        padding: 10px 16px;
+        /* background: transparent;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        border: 2px solid #f67c92; */
+    }
+
+    .social-icon img{
+        
+        width: 15px;
+        margin: 15px auto;
+        
+    }
+    .about-left-col{
+        flex-basis: 100%;
+    }
+    .about-right-col{
+        flex-basis: 100%;
+    }
+
+    .about-text{
+       
+        margin-right: 50px;
+        margin-left: 50px;
+        display: inline-block;
+    }
+    
+    .about-text h2{
+     
+        font-size: 18px;
+       
+    }
+    .feature-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .course-right-col, .course-right-col{
+        flex-basis: 100%;
+    }
+    .course-right-col{
+        margin-top: 70px;
+    }
+
+    .contact-left-col, .contact-right-col{
+        flex-basis: 100%;
+    }
+    .contact-right-col{
+        margin-top: 50px;
+    }
+
+    .footer-right-col{
+    
+        margin-top: 30px;
+    }
+
+    .footer-left-col,.footer-right-col{
+        flex-basis: 100%;
+      
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    
+    
+    
 }
